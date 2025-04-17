@@ -1,3 +1,3 @@
 a = int(input("Enter your number : "))
-x = lambda a : a*a
-print(x(a))
+square = lambda a : a*a
+print(square(a))
