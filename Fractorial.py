@@ -5,4 +5,4 @@ def frac(num):
         return 1
     return num * frac(num-1)
 
-print (f"Fraction of {num} is {frac(num)}")
+print (f"Fractorial of {num} is {frac(num)}")
